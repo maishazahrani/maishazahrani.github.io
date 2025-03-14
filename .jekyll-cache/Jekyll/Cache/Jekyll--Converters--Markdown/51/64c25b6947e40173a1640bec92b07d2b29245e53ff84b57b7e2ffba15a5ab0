@@ -1,7 +1,7 @@
-I"ì<h1 id="friends-page">Friends page</h1>
+I"ë<h1 id="friends-page">Friends page</h1>
 
 <p>Berikut teman-teman saya di kelas:</p>
-<ul>
+<ol>
   <li><a href="https://lepii1.github.io/">Ahmad Aulia Fahlevi</a></li>
   <li><a href="https://alvi0syahril.github.io">Alvi Syahril</a></li>
   <li><a href="https://bunga-hub.github.io/">Bunga Alfa Zahrah</a></li>
@@ -20,7 +20,7 @@
   <li><a href="https://jexiee99.github.io">Jelita Anggraini</a></li>
   <li><a href="https://kaisan969.github.io">Kaisan Nurwaled</a></li>
   <li><a href="https://khairatilaini.github.io/">Khairatil Aini</a></li>
-  <li><a href="https://khalisha0zafira.github.io/">Khalisa Zhafira</a></li>
+  <li><a href="https://khalisha0zafira.github.io/">halisa Zhafira</a></li>
   <li><a href="https://ledianaberasa.github.io/">Lediana Berasa</a></li>
   <li><a href="https://lindawati26.github.io/">Linda wati</a></li>
   <li><a href="https://lizaauliasiregar.github.io/">Liza Aulia Siregar</a></li>
@@ -29,5 +29,5 @@
   <li><a href="https://mailaazizaa.github.io/">Maila Aziza</a></li>
   <li><a href="https://maliaulfa2.github.io/">Malia Ulfa</a></li>
   <li><a href="https://fyou00.github.io/">M.Fathurrahman</a></li>
-</ul>
+</ol>
 :ET
