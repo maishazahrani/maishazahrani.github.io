@@ -69,3 +69,5 @@ jekyll-metadata
 # ignore folders generate by Bundeler
 .bundler/
 vendor
+*.log
+_site/
