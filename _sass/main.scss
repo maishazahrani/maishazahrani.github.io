@@ -1,4 +1,4 @@
-$primary-color: #3a7b76;
+$primary-color: #3a7b73;
 $secondary-color: #fb05a1;
 $font-stack: Helvetica, sans-serif;
 
@@ -22,7 +22,7 @@ ul {
     unicode-bidi: isolate;
 }
 header {
-    text-align: center; padding: 24px; color: #fff;
+    text-align: center; padding: 24px; color: #ffffff;
     background-color: $primary-color;
 }
 
@@ -38,7 +38,7 @@ footer {
 }
 
 h2 {
-    color: #333; margin-bottom: 8px;
+    color: #333333; margin-bottom: 8px;
 }
 
 .social-links a {
@@ -57,7 +57,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #3b7b3a;
+  background-color: #3a7b7a;
 }
 nav li {
   float: left;
@@ -70,7 +70,7 @@ nav li a {
   text-decoration: none;
 }
 nav li a:hover:not(.active) {
-  background-color: #fbbc05;
+  background-color: #05ebfb;
 }
 
 .container {
