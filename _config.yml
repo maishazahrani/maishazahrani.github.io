@@ -1,4 +1,4 @@
-url: "https://maishazahrani.github.io"
+url: 'https://maishazahrani.github.io'
 
 plugins:
   - jekyll-feed
