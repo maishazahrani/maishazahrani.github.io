@@ -1,5 +1,5 @@
-$primary-color: #3a7b73;
-$secondary-color: #fb05a1;
+$primary-color: #8f0d0d;
+$secondary-color: #2adddd;
 $font-stack: Helvetica, sans-serif;
 
 body,
@@ -11,76 +11,54 @@ p {
 
 body {
     font-family: $font-stack; line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #189fc4;
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-}
+
 header {
-    text-align: center; padding: 24px; color: #ffffff;
+    text-align: center; padding: 24px; color: #f6f6fa;
     background-color: $primary-color;
 }
 
 main {
     padding: 24px; margin-top: 24px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    box-shadow: 0 0 8px rgba(223, 221, 221, 0);
+    background-color: #e3dddd;
 }
 
 footer {
-    text-align: center; padding: 8px; margin-top: 24px; color: #fff;
+    text-align: center; padding: 8px; margin-top: 24px; color: #f5f5f5;
     background-color: $primary-color;
 }
 
 h2 {
-    color: #333333; margin-bottom: 8px;
-}
-
-.social-links a {
-    display: inline-block;
-    color: white;
-    margin: 0 10px;
-    font-size: 24px;
-    transition: transform 0.3s;
+    color: #fffdfd; margin-bottom: 8px;
 }
 
 nav {
-  margin: 24px 0;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #3a7b7a;
-}
-nav li {
-  float: left;
-}
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-nav li a:hover:not(.active) {
-  background-color: #05ebfb;
+    margin: 24px 0;
+    ul {
+        list-style-type: none; margin: 0; padding: 0; overflow: hidden;
+        background-color: $primary-color;
+    }
+    li {
+        float: left;
+        a {
+            display: block; color: white; text-align: center; padding: 8px 16px;
+            text-decoration: none;
+            &:hover:not(.active) {
+                background-color: $secondary-color;
+            }
+        }
+    }
 }
 
 .container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
+    width: 80%; margin: auto; overflow: hidden;
 }
+
 .profile-picture {
     width: 150px; height: 150px; border-radius: 50%; margin: 24px auto;
-    background-color: $secondary-color; object-fit: cover;
+    background-color: $secondary-color;
 }
 
 .active {
